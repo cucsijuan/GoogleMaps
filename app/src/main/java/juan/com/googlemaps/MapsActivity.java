@@ -44,3 +44,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
+
+
+
+
+/* Escribir una direccion en un textView con auto complete para despues usando el geocoder me busque la direccion en el mapa
+* tambien cargar la direccion presionando largo con el dedo en el mapa, al lado del textview tiene q haber un boton que
+* centre en la posicion que se encuentra en el momento, consultando si es esa la pos en la que hay que guardar. esto es para la agenda.
+* */
